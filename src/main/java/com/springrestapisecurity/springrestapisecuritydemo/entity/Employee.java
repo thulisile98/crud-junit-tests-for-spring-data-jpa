@@ -1,8 +1,10 @@
 package com.springrestapisecurity.springrestapisecuritydemo.entity;
 
 import jakarta.persistence.*;
+import lombok.Builder;
 
 @Entity
+@Builder
 @Table(name="employee")
 public class Employee {
 
